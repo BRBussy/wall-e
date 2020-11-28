@@ -4,14 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {CssBaseline} from '@material-ui/core';
-import MUIThemeContext from './context/theme';
+import MUIThemeContext from 'context/Theme';
+import AppContext from 'context/App';
+
+declare global {
+    interface Window {
+        console:any;
+    }
+}
 
 ReactDOM.render(
     <React.StrictMode>
-        <MUIThemeContext>
-            <CssBaseline/>
-            <App/>
-        </MUIThemeContext>
+        <AppContext>
+            <MUIThemeContext>
+                <CssBaseline/>
+                <App/>
+            </MUIThemeContext>
+        </AppContext>
     </React.StrictMode>,
     document.getElementById('root')
 );

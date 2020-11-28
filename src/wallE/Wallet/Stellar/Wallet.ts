@@ -1,4 +1,4 @@
-import {Wallet, Network} from 'wall-e/Wallet';
+import {Wallet, Network} from 'wallE/Wallet';
 
 export default class StellarWallet implements Wallet {
     Network() {
