@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch": "cra-build-watch --after-initial-build-hook ''"
+    "watch": "cra-build-watch"
   },
   "eslintConfig": {
     "extends": [

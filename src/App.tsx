@@ -1,20 +1,26 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     root: {
         backgroundColor: theme.palette.background.default,
-        width: 200,
-        height: 100
+        width: 300,
+        height: 200
     }
 }))
 
 function App() {
     const classes = useStyles();
+    const [setColor, color] = useState('asdf');
+
+    useEffect(() => {
+        chrome.storage.sync.get('color', function(data) {
+        });
+    }, [])
 
     return (
         <div className={classes.root}>
-            le app...
+            {color}
         </div>
     );
 }
