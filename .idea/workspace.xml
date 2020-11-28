@@ -10,11 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b3543-afd9-430c-8392-120919cd6834" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d18b3543-afd9-430c-8392-120919cd6834" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/public/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/contentscript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/chrome/background/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension/chrome/contentscript/contentscript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +30,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1kvcN8JNsydHhSzUylBbBKCQENy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/extension/chrome" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,13 +52,40 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.splitter.proportion" value="0.395112" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/extension/chrome" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/extension/chrome" />
+      <recent name="$PROJECT_DIR$/extension/chrome" />
+      <recent name="$PROJECT_DIR$/extension/chrome/contentscript" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build:popup" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:popup" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build:popup" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,7 +97,16 @@
       <updated>1606584462352</updated>
       <workItem from="1606584463458" duration="316000" />
       <workItem from="1606585086591" duration="203000" />
+      <workItem from="1606590934699" duration="1423000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1606590186324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606590186324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +123,43 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1606590929888">
+      <screen x="-90" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/-90.-1080.1920.1080/0.0.1792.1120@-90.-1080.1920.1080" timestamp="1606590929888" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1606590929887">
+      <screen x="-90" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.center/-90.-1080.1920.1080/0.0.1792.1120@-90.-1080.1920.1080" timestamp="1606590929887" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1606590929887">
+      <screen x="-90" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.left/-90.-1080.1920.1080/0.0.1792.1120@-90.-1080.1920.1080" timestamp="1606590929887" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1606590929888">
+      <screen x="-90" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.right/-90.-1080.1920.1080/0.0.1792.1120@-90.-1080.1920.1080" timestamp="1606590929888" />
+    <state x="379" y="-901" key="SettingsEditor" timestamp="1606591143038">
+      <screen x="-90" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="379" y="-901" key="SettingsEditor/-90.-1080.1920.1080/0.0.1792.1120@-90.-1080.1920.1080" timestamp="1606591143038" />
+    <state x="470" y="-813" key="Vcs.Push.Dialog.v2" timestamp="1606590187207">
+      <screen x="-90" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="470" y="-813" key="Vcs.Push.Dialog.v2/-90.-1080.1920.1080/0.0.1792.1120@-90.-1080.1920.1080" timestamp="1606590187207" />
+    <state x="602" y="-876" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606590419537">
+      <screen x="-90" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="602" y="-876" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-90.-1080.1920.1080/0.0.1792.1120@-90.-1080.1920.1080" timestamp="1606590419537" />
+    <state x="535" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1606591125783">
+      <screen x="-90" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="535" y="-839" width="670" height="676" key="search.everywhere.popup/-90.-1080.1920.1080/0.0.1792.1120@-90.-1080.1920.1080" timestamp="1606591125783" />
   </component>
 </project>

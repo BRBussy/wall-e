@@ -8,5 +8,24 @@
     "default_title": "Open the popup"
   },
   "permissions": [
-  ]
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "contentscript.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
 }
