@@ -11,10 +11,11 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
     const classes = useStyles();
-    const [setColor, color] = useState('asdf');
+    const [color, setColor] = useState('no color set bru');
 
     useEffect(() => {
         chrome.storage.sync.get('color', function(data) {
+            setColor(data.color)
         });
     }, [])
 
